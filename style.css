@@ -2,11 +2,11 @@ html,body{
 			width: 100%;
 			height: 100%;
 			font-size: 16px;
-		}
-		body {
-			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
 			margin: 0;
 			padding: 0;
+		}
+		body#top {
+			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
 		}
 		
 		.top-logo{
