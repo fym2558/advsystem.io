@@ -24,11 +24,20 @@
 			margin-right:  calc((100% - 1024px) / 2);
 		}
 		
+		.panel{
+			box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+			padding: 30px 60px;
+		}
+		
 		@media (max-width: 1024px){
 		    .width-margin{
 			    width: calc(100% - 30px);
 				margin-left: 15px;
 				margin-right: 15px;
+			}
+			
+			.panel{
+				padding: 10px 15px;
 			}
 		
 		}
@@ -37,7 +46,7 @@
   </head>
   <body>
         <div class="width-margin height-margin">
-            <div id="panel">
+            <div class="panel">
                 <div class="title">Log in</div>
             </div>
         </div>   
