@@ -114,8 +114,24 @@ html,body{
 		.inner-page .article .page-option-btn{
 			float: left;
 			padding: 5px 15px;
-			background-color: #ffd8d8;
+			background-color: #aac5a7;
 			margin: 0 10px;
+			cursor:pointer;
+		}
+		
+		.inner-page .article .page-option-btn:hover{
+			background-color: #648661;
+			color: white;
+			transition: 0.3s linear all;
+		}
+		
+		.inner-page .article .page-option-btn.selected{
+			background-color: #648661;
+			color: white;
+		}
+		
+		.inner-page .article .page-option-btn.selected{
+			transition: none;
 		}
 		
 		.inner-page .page-table table{
