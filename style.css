@@ -30,6 +30,24 @@ html,body{
 			padding: 20px 0;
 		}
 		
+		.inner-page .aside .logout{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 320px;
+			background-image: -webkit-gradient(linear,left top,right bottom,from(#a3a5a4),to(#72a574));
+			padding: 15px 0;
+			text-align: center;
+			border-top: 1px solid #f0f0f0;
+			font-weight: 600;
+		}
+		
+		.inner-page .aside .logout a{
+			text-decoration: none;
+			color: #ffffff;
+			font-family: 'Arial';
+		}
+		
 		.inner-page .article{
 			position:relative;
 			left: 320px;
