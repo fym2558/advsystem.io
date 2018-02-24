@@ -29,6 +29,12 @@
 			margin-bottom: 60px;
 		}
 		
+		.errorMsg{
+			font-size: 14px;
+			color: #c32e2e;
+			padding: 5px 0px;
+		}
+		
 		.panel{
 			box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
 			padding: 30px 60px;
@@ -106,6 +112,7 @@
 			<div class="panel">
                 <div class="title">Log in</div>
 				<div class="form">
+				    <div class="errorMsg">* Your Login Account is Incorrect</div>
 					<form method="post" action="/login.html">
 						<label><span>Username: </span><input type="text"     name="username" placeholder="primer-p"></label>
 						<label><span>Password: </span><input type="password" name="password" placeholder="****" /></label>
