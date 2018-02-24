@@ -25,6 +25,11 @@ html,body{
 			left: 0;
 		}
 		
+		.inner-page .inner-page-logo{
+			text-align: center;
+			padding: 20px 0;
+		}
+		
 		.inner-page .article{
 			position:relative;
 			left: 320px;
