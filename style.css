@@ -18,7 +18,7 @@ html,body{
 		}
 		
 		.inner-page .aside{
-			width: 320px;
+			width: 250px;
 			height: 100%;
 			position: fixed;
 			top:0;
@@ -40,7 +40,8 @@ html,body{
 		
 		.inner-page .aside ul{
 			margin: 0;
-		}
+			padding-left: 20px;
+			}
 		
 		.inner-page .aside ul li{
 			display:block;
@@ -64,11 +65,15 @@ html,body{
 			padding: 20px 0;
 		}
 		
+		.inner-page .inner-page-logo h1{
+			letter-spacing: 0px!important;
+		}
+		
 		.inner-page .aside .logout{
 			position: fixed;
 			bottom: 0;
 			left: 0;
-			width: 320px;
+			width: 250px;
 			/*background-image: -webkit-gradient(linear,left top,right bottom,from(#a3a5a4),to(#72a574));*/
 			padding: 15px 0;
 			text-align: center;
@@ -86,8 +91,8 @@ html,body{
 		
 		.inner-page .article{
 			position:relative;
-			left: 320px;
-			width: calc(100% - 320px);
+			left: 250px;
+			width: calc(100% - 250px);
 		}
 		
 		.inner-page .article .inner-content{
