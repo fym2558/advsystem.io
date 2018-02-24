@@ -77,6 +77,16 @@ html,body{
 			width: calc(100% - 320px);
 		}
 		
+		.inner-page .article .inner-content{
+			margin: 15px;
+		}
+		
+		.inner-page .article h2.page-headline{
+			font-size: 32px;
+			background-color: #d8d8d8;
+			padding: 15px 15px;
+		}
+		
 		.top-logo{
 			margin: 0 0 15px;
 		}
