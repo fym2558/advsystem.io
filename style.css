@@ -13,16 +13,19 @@ html,body{
 			width: 100%;
 		}
 		
-		.inner-page aside{
-			width: 320px;
+		.background-grad{
 			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
+		}
+		
+		.inner-page .aside{
+			width: 320px;
 			height: 100%;
 			position: fixed;
 			top:0;
 			left: 0;
 		}
 		
-		.inner-page article{
+		.inner-page .article{
 			position:relativ;
 			left: 320px;
 			width: calc(100% - 320px);
@@ -114,6 +117,7 @@ html,body{
 			font-size: 18px;
 			padding: 10px 30px;
 			border-radius: 8px;
+			cursor: pointer;
 		}
 		
 		.panel form button:hover{
