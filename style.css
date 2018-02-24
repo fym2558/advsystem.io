@@ -156,6 +156,14 @@ html,body{
 			text-align: right;
 		}
 		
+		.inner-page .page-table table .last-row{
+			background-color: #bdbdbd;
+		}
+		
+		.inner-page .page-table table .last-row td{
+			border-bottom: 2px solid #a0a0a0;
+		}
+		
 		.top-logo{
 			margin: 0 0 15px;
 		}
