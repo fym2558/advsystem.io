@@ -2,6 +2,11 @@
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 	<style>
+		html,body{
+			width: 100%;
+			height: 100%;
+			font-size: 16px;
+		}
 		body {
 			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
 			margin: 0;
@@ -18,6 +23,15 @@
 			margin-left: calc((100% - 1024px) / 2);
 			margin-right:  calc((100% - 1024px) / 2);
 		}
+		
+		@media (max-width: 1024px){
+		    .width-margin{
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+		
+		}
+		
 	</style>
   </head>
   <body>
