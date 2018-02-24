@@ -9,6 +9,25 @@ html,body{
 			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
 		}
 		
+		.inner-page{
+			width: 100%;
+		}
+		
+		.inner-page aside{
+			width: 320px;
+			background-image: -webkit-gradient(linear,left top,right bottom,from(#5e7771),to(#478049));
+			height: 100%;
+			position: fixed;
+			top:0;
+			left: 0;
+		}
+		
+		.inner-page article{
+			position:relativ;
+			left: 320px;
+			width: calc(100% - 320px);
+		}
+		
 		.top-logo{
 			margin: 0 0 15px;
 		}
