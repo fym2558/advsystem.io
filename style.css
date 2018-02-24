@@ -100,6 +100,27 @@ html,body{
 			padding: 15px 15px;
 		}
 		
+		.inner-page .page-table table{
+			width: 100%;
+		}
+		
+		.inner-page .page-table table th{
+			background-color: #abd2d6;
+			border: 1px solid #fff;
+			padding: 10px 10px;
+			text-align: left;
+		}
+		
+		.inner-page .page-table table td{
+			padding: 10px;
+			border-bottom: 1px solid #a0a0a0;
+			text-align: left;
+		}
+		
+		.inner-page .page-table table .number{
+			text-align: right;
+		}
+		
 		.top-logo{
 			margin: 0 0 15px;
 		}
