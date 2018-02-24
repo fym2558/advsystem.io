@@ -233,3 +233,25 @@ html,body{
 			}
 		
 		}
+		
+		@media (max-width: 800px){
+			.inner-page .aside{
+				width: 100%;
+				height: auto;
+				position: relative;
+				top: auto;
+				left: auto;
+			}
+			.inner-page .aside nav{
+				display:none;
+			}
+			.inner-page .aside .logout{
+				display: none;
+			}
+			
+			.inner-page .article{
+				position: relative;
+				left: 0;
+				width: 100%;
+			}
+		}
