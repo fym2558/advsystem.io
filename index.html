@@ -31,6 +31,11 @@
             border-radius: 8px;
 		}
 		
+		.panel .title{
+			font-size: 24px;
+			font-weight: 600;
+		}
+		
 		@media (max-width: 1024px){
 		    .width-margin{
 			    width: calc(100% - 30px);
@@ -48,8 +53,15 @@
   </head>
   <body>
         <div class="width-margin height-margin">
-            <div class="panel">
+            <!-- login form -->
+			<div class="panel">
                 <div class="title">Log in</div>
+				<div class="form">
+					<form method="post" action="/login.html">
+						<label><span>Username: </span><input type="text"     name="username" placeholder="primer-p"></label>
+						<label><span>Password: </span><input type="password" name="password" placeholder="****" /></label>
+					</form>
+				</div>
             </div>
         </div>   
     </body>
